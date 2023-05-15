@@ -1,2 +1,28 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
 scatter-plot/
+
+# Ignore any generated data or output files
+*.csv
+*.xlsx
+*.png
+
+# Ignore any IDE or text editor specific files
+.vscode/
+.idea/
 *.pyc
+
+# Ignore any log files
+*.log
+
+# Ignore any compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore any local configuration files
+.env
+config.ini
